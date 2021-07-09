@@ -101,11 +101,10 @@
 
         <!-- MySQL Connector Dependency -->
         
-
         <dependency>
             <groupId>org.apache.log4j</groupId>
-            <artifactId>com.springsource.org.apache.log4j</artifactId>
-            <version>1.2.16</version>
+                <artifactId>org.apache.log4j</artifactId>
+                <version>1.2.13.v200706111418</version>
         </dependency>
 
         <dependency>
