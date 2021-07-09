@@ -2,7 +2,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.aws.codestar.projecttemplates</groupId>
-    <artifactId>HelloWorld</artifactId>
+    <artifactId>ZenithFoundation</artifactId>
     <version>1.0</version>
     <packaging>war</packaging>
     <name>Sample Spring MVC Application Using AWS CodeStar</name>
@@ -10,6 +10,15 @@
     <properties>
         <junit.platform.version>1.2.0</junit.platform.version>
         <junit.jupiter.version>5.2.0</junit.jupiter.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<!-- <spring.version>5.0.7.RELEASE</spring.version> -->
+		<systemScope.path>${basedir}/lib/</systemScope.path>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.resources.targetPath>${project.build.directory}/ROOT/WEB-INF/classes/com/techmust/</project.resources.targetPath>
+		<project.resources.sourcePath>${project.basedir}/src/main/java/com/techmust/</project.resources.sourcePath>
+
     </properties>
 
     <dependencies>

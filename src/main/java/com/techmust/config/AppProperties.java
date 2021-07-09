@@ -39,7 +39,7 @@ public class AppProperties
 
     public static final class OAuth2
     {
-        private List<String> m_arrAuthorizedRedirectUris = new ArrayList<>();
+        private List<String> m_arrAuthorizedRedirectUris = new ArrayList<String>();
 
         public List<String> getAuthorizedRedirectUris() 
         {
