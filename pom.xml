@@ -20,12 +20,15 @@
 		<project.resources.sourcePath>${project.basedir}/src/main/java/com/techmust/</project.resources.sourcePath>
 
     </properties>
+    
+    <!-- Spring Boot Dependencies -->
     <parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.1.0.RELEASE</version>
+		<version>2.5.2.RELEASE</version>
 	</parent>
 
+    <!--AWS Dependencies-->
     <dependencies>
         <dependency>
 			<groupId>com.amazonaws</groupId>
@@ -87,6 +90,13 @@
             <artifactId>junit-platform-runner</artifactId>
             <version>${junit.platform.version}</version>
             <scope>test</scope>
+        </dependency>
+
+        <!-- javax.persistence-api -->
+        <dependency>
+            <groupId>javax.persistence</groupId>
+            <artifactId>javax.persistence-api</artifactId>
+            <version>2.2</version>
         </dependency>
     </dependencies>
 
