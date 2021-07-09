@@ -20,7 +20,11 @@
 		<project.resources.sourcePath>${project.basedir}/src/main/java/com/techmust/</project.resources.sourcePath>
 
     </properties>
-
+    <parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>2.1.0.RELEASE</version>
+	</parent>
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
